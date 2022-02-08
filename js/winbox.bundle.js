@@ -220,9 +220,10 @@
           (D = d.pageY),
           a.focus())
     }
+
     function g(d) {
       t(d)
-      z && (d = d.touches[0])
+      z && (d = d.touches[0]) // comment this add
       var I = d.pageX
       d = d.pageY
       var l = I - H,
@@ -256,6 +257,7 @@
       H = I
       D = d
     }
+
     function f(d) {
       t(d)
       w(a.g, 'transition', '')
