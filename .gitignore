@@ -1,0 +1,4 @@
+*.config 		
+!global.config  	
+build/ 			
+doc/*.txt 		
