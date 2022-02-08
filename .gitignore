@@ -1,3 +1,9 @@
+.*
+~*
+.log
+.sql
+.sqlite
 .DS_Store
 .ico
 .png
+
