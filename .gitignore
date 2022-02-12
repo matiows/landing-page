@@ -1,4 +1,9 @@
-*.config 		
-!global.config  	
-build/ 			
-doc/*.txt 		
+.*
+~*
+.log
+.sql
+.sqlite
+.DS_Store
+.ico
+.png
+
